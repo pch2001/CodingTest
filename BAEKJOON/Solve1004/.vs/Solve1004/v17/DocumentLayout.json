@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1004\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E126B2A0-B8C3-46DD-8E4A-CF2BC3CD2E15}|Solve1004\\Solve1004.vcxproj|C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1004\\Solve1004\\Solve1004.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E126B2A0-B8C3-46DD-8E4A-CF2BC3CD2E15}|Solve1004\\Solve1004.vcxproj|solutionrelative:Solve1004\\Solve1004.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1004\\Solve1004\\Solve1004.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Solve1004\\Solve1004.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1003.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Solve1003.cpp",
+              "DocumentMoniker": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1003.cpp",
+              "RelativeDocumentMoniker": "..\\Solve1003.cpp",
+              "ToolTip": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1003.cpp",
+              "RelativeToolTip": "..\\Solve1003.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T03:18:43.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Solve1004\\Solve1004.cpp",
               "ToolTip": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1004\\Solve1004\\Solve1004.cpp",
               "RelativeToolTip": "Solve1004\\Solve1004.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T14:36:06.856Z",
               "EditorCaption": ""

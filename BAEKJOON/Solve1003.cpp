@@ -23,11 +23,23 @@ int fibonacci(int n) {
 int main() {
     int count, num;
     cin >> count;
-    for (int i = 0; i < count; i++) {
-        a1 = 0; a2 = 0;
-        cin >> num;
-        int a = fibonacci(num);
 
-        cout<< a1<< " " << a2;
+    for (int i = 0; i < count; i++) {
+        cin >> num;
+
+        int a1 = 1, a2 = 0; // fibonacci(0)
+        int b1 = 0, b2 = 1; // fibonacci(1)
+        int temp1, temp2;
+
+        for (int j = 2; j <= num; j++) {
+            temp1 = a1 + b1;
+            temp2 = a2 + b2;
+            a1 = b1;
+            a2 = b2;
+            b1 = temp1;
+            b2 = temp2;
+        }
+
+        cout << a1 << " " << a2 << endl;
     }
 }

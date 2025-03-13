@@ -1,0 +1,5 @@
+.vs/
+
+git rm -r --cached .vs
+git commit -m "Ignore .vs folder"
+git push
