@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1005\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D0061-DC71-4664-A9EB-118F54A7B10D}|Solve1005\\Solve1005.vcxproj|C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1005\\Solve1005\\Solve1005.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D0061-DC71-4664-A9EB-118F54A7B10D}|Solve1005\\Solve1005.vcxproj|solutionrelative:Solve1005\\Solve1005.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Solve1005.cpp",
+              "DocumentMoniker": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1005\\Solve1005\\Solve1005.cpp",
+              "RelativeDocumentMoniker": "Solve1005\\Solve1005.cpp",
+              "ToolTip": "C:\\Users\\hoo\\Desktop\\BJ\\CodingTest\\BAEKJOON\\Solve1005\\Solve1005\\Solve1005.cpp",
+              "RelativeToolTip": "Solve1005\\Solve1005.cpp",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T10:55:05.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
