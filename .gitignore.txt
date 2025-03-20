@@ -6,7 +6,3 @@
 
 # C++ 소스 코드 파일만 허용
 !*.cpp
-
-git rm -r --cached .vs
-git commit -m "Ignore .vs folder"
-git push
