@@ -7,8 +7,8 @@ int main() {
 	cin >> count;
 	for (int i = 0; i < count;i++) {
 		cin >> repeat >> word;
-		for (int j = 0; j <= repeat; j++) {
-			for (int x = 0; x <= word.size()-1; x++) {
+		for (int j = 0; j < word.size(); j++) {
+			for (int x = 0; x < repeat; x++) {
 				cout << word[j];
 			}
 		}
