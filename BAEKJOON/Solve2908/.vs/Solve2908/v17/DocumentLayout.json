@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hoo\\Desktop\\CodingTest\\BAEKJOON\\Solve2908\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BE952-AEC9-4273-AF2F-D46ADB937EBE}|Solve2908\\Solve2908.vcxproj|C:\\Users\\hoo\\Desktop\\CodingTest\\BAEKJOON\\Solve2908\\Solve2908\\S2908.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD8BE952-AEC9-4273-AF2F-D46ADB937EBE}|Solve2908\\Solve2908.vcxproj|solutionrelative:Solve2908\\S2908.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S2908.cpp",
+              "DocumentMoniker": "C:\\Users\\hoo\\Desktop\\CodingTest\\BAEKJOON\\Solve2908\\Solve2908\\S2908.cpp",
+              "RelativeDocumentMoniker": "Solve2908\\S2908.cpp",
+              "ToolTip": "C:\\Users\\hoo\\Desktop\\CodingTest\\BAEKJOON\\Solve2908\\Solve2908\\S2908.cpp",
+              "RelativeToolTip": "Solve2908\\S2908.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-17T05:54:37.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
