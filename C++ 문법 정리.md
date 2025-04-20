@@ -13,8 +13,8 @@ cin.tie(0);//출력버퍼 비우기
 - isringstream a(스트링); - 입력 전용 스트림
 - ostringstream a(스트링); - 출력 전용 스트림
 
-
-ｅｘ）
+<code>
+ex)
 getline(cin, subject);
 stringstream a(subject);
 string first, third;
