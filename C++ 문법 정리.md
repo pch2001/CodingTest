@@ -13,6 +13,14 @@ cin.tie(0);//출력버퍼 비우기
 - isringstream a(스트링); - 입력 전용 스트림
 - ostringstream a(스트링); - 출력 전용 스트림
 
+<code>
+ex)
+getline(cin, subject);
+stringstream a(subject);
+string first, third;
+		float second;
+		a >> first >> second >> third;
+
 ex) ostring oss;
     oss << "Name :" << name << "Age : " << age;
     string result = oss.str();
