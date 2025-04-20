@@ -15,7 +15,11 @@ cin.tie(0);//출력버퍼 비우기
 
 
 ｅｘ）
-
+getline(cin, subject);
+stringstream a(subject);
+string first, third;
+		float second;
+		a >> first >> second >> third;
 
 ex) ostring oss;
     oss << "Name :" << name << "Age : " << age;
