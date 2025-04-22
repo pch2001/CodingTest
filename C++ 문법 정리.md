@@ -18,9 +18,11 @@ ex)
 getline(cin, subject);
 stringstream a(subject);
 string first, third;
-		float second;
-		a >> first >> second >> third;
+float second;
+a >> first >> second >> third;
 
-ex) ostring oss;
-    oss << "Name :" << name << "Age : " << age;
-    string result = oss.str();
+<code>
+ex) 
+ostring oss;
+oss << "Name :" << name << "Age : " << age;
+string result = oss.str();
