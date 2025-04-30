@@ -8,19 +8,17 @@ int main() {
 
     string result;
 
-    // N을 B진법으로 변환
     while (N > 0) {
         int remainder = N % B;
         if (remainder < 10) {
-            result += (char)(remainder + '0'); // 숫자는 '0' ~ '9'
+            result += (char)(remainder + '0');
         }
         else {
-            result += (char)(remainder - 10 + 'A'); // 10 이상은 'A' ~ 'Z'
+            result += (char)(remainder - 10 + 'A'); 
         }
         N /= B;
     }
 
-    // 결과가 뒤집혀 있으니 정렬
     reverse(result.begin(), result.end());
 
     cout << result << endl;
