@@ -1,22 +1,29 @@
 #include <iostream>
-
-int menuChoice(int* sushi, int k, int c)
-{
-
-}
-
-
+#include <vector>
 int main()
 {
 	int N, d, k, c;
 	std::cin >> N >> d >> k >> c;
-	
+
 	int* sushi = new int[N];
 
-	while (N--)
+	for (int i = 0; i < N; i++)
 	{
-		std::cin >> sushi[N];
+		std::cin >> sushi[i];
 	}
-	menuChoice(sushi, k, c);
+
+	std::vector<int> eat(d + 1, 0);
+	int cnt = 0;
+	for (int i = 0; i < k; ++i)
+	{
+		if (eat[sushi[i]]++ == 0)
+			cnt++;
+	}
+
+	if (eat[c]++ == 0)
+	{
+		cnt++;
+	}
+
 
 }
