@@ -37,7 +37,7 @@ int main()
 
 	for (int y = 0; y < n; y++)
 	{
-		for (int x = 0; x < n; x++)
+		for (int x = 0; x < m; x++)
 		{
 			std::cin >> map[y][x];
 			dist[y][x] = -1;
@@ -49,8 +49,8 @@ int main()
 		}
 	}
 
-	std::cout << startX<<"\n";
-	std::cout << startY<<"\n";
+	//std::cout << startX<<"\n";
+	//std::cout << startY<<"\n";
 
 	q.push({ startY, startX });
 	dist[startY][startX] = 0;
