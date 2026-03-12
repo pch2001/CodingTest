@@ -15,7 +15,7 @@ int main()
 	}
 	std::sort(scores.begin(), scores.end());
 
-	long long avg = 0;
+	double avg = 0;
 	for (int i = 0; i < M; i++)
 	{
 		avg += scores[i]/scores[M - 1]*100;
