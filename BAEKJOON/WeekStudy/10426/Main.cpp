@@ -3,7 +3,7 @@
 
 int main()
 {
-	int N;
+	int N = 1;
 	int* A = new int[N];
 	int* B = new int[N];
 

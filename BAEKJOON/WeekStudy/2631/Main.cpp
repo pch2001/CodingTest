@@ -5,7 +5,7 @@ int dp[200];
 
 int lineStart(int idx)
 {
-
+	return 0;
 }
 
 int main()
