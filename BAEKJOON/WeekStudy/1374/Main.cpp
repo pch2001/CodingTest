@@ -5,6 +5,7 @@
 std::pair <int, int> arr[100001];
 std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
 
+//pq = 현재 진행 중인 강의실 종료 시간 현황
 
 int main()
 {
@@ -36,3 +37,4 @@ int main()
 	std::cout << room;
 
 }
+	
