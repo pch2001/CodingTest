@@ -3,9 +3,9 @@
 int blockHeight[501];
 int H, W;
 
-int ResearchWater(int height)
+int ResearchWater(int height)	//목표 : height 높이 인 가로 없애주기
 {
-	int first = -1;	//first는 처음 으로 height이 높이가 등장한 곳 만약 웅덩이가 1개이상이면 end값을 first로 최신화 필요
+	int first = -1;	
 	int water = 0;
 	for (int i = 0; i < W; i++)
 	{
@@ -13,7 +13,7 @@ int ResearchWater(int height)
 		{
 			if (first != -1)
 				water += i - first - 1;
-			first = i;
+			first = i; //시작점 지정 + 리셋
 		}
 	}
 	return water;
@@ -42,5 +42,9 @@ int main()
 
 	std::cout << water;
 }
+
+
+
+
 
 //left랑 right해서 둘중 큰 값을 비교해서 하기
