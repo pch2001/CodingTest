@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+// 컴퓨터 세팅
+
 int main()
 {
 	int a, b, c, d=10;
