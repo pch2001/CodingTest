@@ -5,6 +5,17 @@ std::vector<int> input(32);
 int pcLine = 0;
 int adder = 0;
 
+
+int binToDec(std::string s)
+{
+	int val = 0;
+	for (char c : s)
+	{
+		val = val * 2 + (c - '0');
+	}
+	return val;
+}
+
 int porgramStart(int pc)
 {
 	int command = pc/100000;
@@ -41,7 +52,7 @@ int main()
 	std::ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);
 
-
+	std::vector<std::string> memory(32);
 
 	for (int i = 0; i < 32; i++)
 	{
