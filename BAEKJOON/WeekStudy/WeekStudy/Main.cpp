@@ -4,23 +4,19 @@
 
 int main()
 {
-	int a, b, c, d=10;
-	std::cin >> a >> b >> c;
+	int width = 5;
+	int x = 5, y = 5;
 
-	std::cout << a + b - c << "\n";
+	// 1. 하나로 합치기
+	int linearIndex = (y * width) + x;
 
-	int temp = b;
-	while (1)
+	std::cout << linearIndex << "\n";
+
+
+	for (int i = 0; i < linearIndex; i++)
 	{
-		temp = temp / 10;
-		if (temp <= 0)
-			break;
-		d *= 10;
+		std::cout << i % width << ", " << i / width <<"\n";
 	}
-
-
-
-	std::cout << (a * d) + b - c;
 
 
 }
