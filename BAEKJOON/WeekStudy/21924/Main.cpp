@@ -84,7 +84,15 @@ int main()
 		parent[i] = i;
 	}
 
-	std::sort(path.begin(), path.end(), [](const auto& a, const auto& b){ return a.first < b.first; } );
+
+
+
+	std::sort(path.begin(), path.end(), [](const auto& a, const auto& b) 
+	{ 
+			
+			return a.first < b.first; 
+		
+		} );
 
 	mstStart(path, Maxdistance, parent);
 
