@@ -10,7 +10,7 @@ int dy[4] = { 0, 0, 1, -1 };
 int max = 0;
 
 
-void DFS(int x, int y, int Cnt)
+void DFSBack(int x, int y, int Cnt)
 {
 	max = std::max(max, Cnt);
 
@@ -24,7 +24,7 @@ void DFS(int x, int y, int Cnt)
 			if (Visit[alphbat[nx][ny] - 'A'] == false)
 			{
 				Visit[alphbat[nx][ny] - 'A'] = true;
-				DFS(nx, ny, Cnt + 1);
+				DFSBack(nx, ny, Cnt + 1);
 				Visit[alphbat[nx][ny] - 'A'] = false;
 			}
 		}
@@ -34,7 +34,7 @@ void DFS(int x, int y, int Cnt)
 void find()
 {
 	Visit[alphbat[0][0] - 'A'] = true;
-	DFS(0, 0, 1);	
+	DFSBack(0, 0, 1);	
 	std::cout << max;
 }
 

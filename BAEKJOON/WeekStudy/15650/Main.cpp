@@ -17,8 +17,12 @@ void print(int start, int depth)
 
     for (int i = start; i <= N; i++)
     {
+        for (int i = 0; i < M; i++)
+            std::cout << arr[i] << " ";
+        std::cout << "\n";
+
         arr[depth] = i;
-        print(i + 1, depth + 1); // 다음은 i+1부터
+        print(i + 1, depth + 1); 
     }
 }
 
